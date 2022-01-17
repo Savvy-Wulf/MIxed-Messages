@@ -38,6 +38,14 @@ const mixedMessages = arr => {
             return messages[10];
             break;
     }
+    
 };
 
-console.log(mixedMessages().join(' '));
+let button = document.getElementById('quoteButton');
+let quote = document.getElementById('quote');
+
+function showQuote(){
+    quote.innerHTML = mixedMessages();
+};
+
+button.addEventListener('click', showQuote)
