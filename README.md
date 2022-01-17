@@ -1,0 +1,1 @@
+HTML/JS code that generates a Quote when the button is clicked.
